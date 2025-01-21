@@ -8,8 +8,9 @@ const About = () => {
   return (
     <>
       <section className="mx-auto w-[100%] flex items-center">
+      <div className="mx-auto max-w-[1200px] pt-20">
         <div className="bg-[#F0EBE1] px-6">
-          <div className=" max-w-[1200px] mx-4 pt-20">
+          
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div>
                 <h2 className="font-bold text-[40px] w-[100%] md:text-[60px] ">
