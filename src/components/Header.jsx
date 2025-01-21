@@ -10,7 +10,7 @@ const Header = () => {
 
   function handleToggle() {
     setToggle(!toggle);
-    console.log(toggle);
+    // console.log(toggle);
   }
   return (
     <div
@@ -80,21 +80,23 @@ const Header = () => {
             {" "}
             <h1>ABOUT US</h1>{" "}
           </a>
-        
+
           <div className="md:flex flex-row justify-center items-center gap-1 w-[20%]">
             <input className="hidden" />
-            <button><CiSearch />SUBSCRIBE</button>
-         
-          <div className="flex text-center justify-center items-center w-[40%] gap-2">
-          <CiFacebook />
-            <CiInstagram />
-            <CiYoutube />
-          </div>
+            <button>
+              <CiSearch />
+              SUBSCRIBE
+            </button>
+
+            <div className="flex text-center justify-center items-center w-[40%] gap-2">
+              <CiFacebook />
+              <CiInstagram />
+              <CiYoutube />
+            </div>
           </div>
         </div>
       )}
     </div>
-  
   );
 };
 export default Header;
