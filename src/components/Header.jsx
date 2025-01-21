@@ -43,7 +43,7 @@ const Header = () => {
               {" "}
               <h1>RECIPE</h1>{" "}
             </a>
-            <a href="/Cooking tips">
+            <a href="/Cooking">
               {" "}
               <h1>COOKING TIPS</h1>{" "}
             </a>
@@ -72,7 +72,7 @@ const Header = () => {
             {" "}
             <h1>RECIPE</h1>{" "}
           </a>
-          <a href="/Cooking tips">
+          <a href="/Cooking">
             {" "}
             <h1>COOKING TIPS</h1>{" "}
           </a>
