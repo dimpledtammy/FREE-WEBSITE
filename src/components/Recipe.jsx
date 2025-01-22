@@ -334,7 +334,7 @@ const Recipe = () => {
                 <div className=" md:flex md:flex-row justify-between flex flex-col">
                   <div>
                     {" "}
-                    <h2 className="font-bold text-[30px]">SIMILLAR RECIPE</h2>{" "}
+                    <h2 className="font-bold text-[32px]">SIMILLAR RECIPE</h2>{" "}
                   </div>{" "}
                   <div className="flex">
                     <FaRegArrowAltCircleLeft />
