@@ -17,7 +17,7 @@ const Home = () => {
                   backgroundImage: "url('/hero-bg.png')",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  height: "100%",
+                  height: "100vh",
                   width: "100%",
                 }}
               >
