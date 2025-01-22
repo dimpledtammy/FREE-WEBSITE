@@ -14,15 +14,15 @@ const Header = () => {
   }
   return (
     <div
-      className={`flex flex-col  fixed w-full   bg-${
+      className={`flex flex-col  fixed w-[100%]   bg-${
         !toggle ? "[#262522]" : ""
       } md:bg-transparent`}
     >
       {/* desktop */}
-      <div className="mx-auto flex justify-center w-full">
-        <div className=" flex  w-[90%] shadow-2xl items-center bg-[#F0EBE1]  text-center justify-between m-4  p-[5px]  border border-solid  border-black-600 rounded-md">
+      <div className="mx-auto max-w-[100%]  m-2 flex justify-center w-[100%]">
+        <div className=" flex  w-[100%]  items-center bg-[#F0EBE1]   text-center justify-between m-4  p-[5px]  border-2 border-solid border-[#6c6c61cc] border-black-600 rounded-2xl">
           <div>
-            <img className="ml-4" src="/logo.png" />
+            <img className="" src="/logo.png" />
           </div>
           <div
             onClick={() => handleToggle()}
@@ -52,7 +52,7 @@ const Header = () => {
               <h1>ABOUT US</h1>{" "}
             </a>
           </div>
-          <div className="hidden  md:flex justify-center items-center gap-1 w-[20%]">
+          <div className="hidden  md:flex items-center  gap-1 ">
             <input className="hidden" />
             <button>
               <CiSearch />
@@ -63,7 +63,7 @@ const Header = () => {
       </div>
       {/* mobile */}
       {!toggle && (
-        <div className=" w-[50%]  p-20 flex bg-[#262522] flex-col text-white text-left  md:hidden justify-center items-left gap-4">
+        <div className=" p-10 flex bg-[#262522] flex-col text-white text-left  md:hidden justify-between items-left gap-4">
           <a href="/">
             {" "}
             <h1>HOME</h1>{" "}
