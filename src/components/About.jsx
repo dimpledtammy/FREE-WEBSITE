@@ -8,10 +8,10 @@ const About = () => {
   return (
     <>
       <section className="mx-auto w-[100%] flex items-center">
-      <div className="mx-auto max-w-[1200px] pt-20">
-        <div className="bg-[#F0EBE1] px-6">
+      <div className=" ">
+        <div className="bg-[#F0EBE1] p-4 ">
           
-            <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="flex flex-col pt-20 md:flex-row justify-between items-center">
               <div>
                 <h2 className="font-bold text-[40px] w-[100%] md:text-[60px] ">
                   Welcome to my Culinary Haven!

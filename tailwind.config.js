@@ -5,7 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   fontFamily: {
-    'nunito': ['nunito', 'sans-serif'],
+    'montserrat': ['montserrat', 'sans-serif'],
   },
   theme: {
     extend: {},

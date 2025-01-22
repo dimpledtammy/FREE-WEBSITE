@@ -8,25 +8,28 @@ const Footer =() => {
          <section className="bg-[#F0EBE1]  p-6">
        
         <div>
-       <section className="bg-[#EE6352] rounder-[20px] border-10px mx-4 mb-3">
-        <div className="mx-auto p-4">
-        <div className=" text-white flex flex-col items-left md:justify-center md:items-center gap-4">
+       <section className="bg-[#EE6352] rounded-2xl rounder-[20px] border-10px mx-4 mb-3">
+        <div className="mx-auto  p-4">
+        <div className=" text-white flex flex-col justify-center items-center gap-4">
             <p>SUBSCRIBE</p>
-            <h2 className="font-bold md:text-center md:items-center text-[30px]">JOIN THE FUN, SUBSCRIBE NOW</h2>
-            <p className="w-[50%] text-left md:text-center">Subscribe to our newsletter for a weekly serving of recipes, cooking tips, and exclusive insights straight to your inbox.</p>
-           <form>
+            <h2 className="font-bold text-center items-center text-[30px]">JOIN THE FUN, SUBSCRIBE NOW</h2>
+            <p className="w-[100%] text-center">Subscribe to our newsletter for a weekly serving of recipes, cooking tips, and exclusive insights straight to your inbox.</p>
+           <form className="flex flex-col md:flex-row items-center gap-2 text-center">
             <input className="p-2 rounded-[10px]  text-black" type="email" placeholder="emailaddress"/>
             <button className="bg-black rounded-[10px] p-2">subscribe</button>
            </form>
          </div>
         </div>
        </section>
-       <section className="bg-black mx-4  p-4">
-        <div className="flex flex-col items-left text-left text-white gap-4 md:flex md:flex-row md:justify-between md:items-center ">
+       <section className="bg-black rounded-2xl mx-4  p-4">
+        
+        <div className="flex flex-col  text-center text-white gap-4 md:flex md:flex-row justify-between items-center ">
+          
           <div>
              <img src="/Logo-Footer.png"/>
           </div>
-          <div className="gap-2 flex flex-col md:flex md:flex-row">
+          <div>
+          <div className="gap-6 flex w-[100%] items-center  flex-col md:flex md:flex-row">
           <a href="/">
               {" "}
               <h1>HOME</h1>{" "}
@@ -44,7 +47,8 @@ const Footer =() => {
               <h1>ABOUT US</h1>{" "}
             </a>
           </div>
-          <div  className="gap-3 flex flex-row">
+          </div>
+          <div  className="gap-3 justify-between items-center flex flex-row">
           <CiFacebook />
             <CiInstagram />
             <CiYoutube />
@@ -53,7 +57,8 @@ const Footer =() => {
          
         </div>
         <div className="text-white pt-3"> < hr/> </div>  
-          <div className="text-white flex justify-left  md:justify-center ">Copyright: © 2024 Cooks Delight.</div>
+          <div className="text-white flex justify-center ">Copyright: © 2024 Cooks Delight.</div>
+          
        </section>
       </div>
          

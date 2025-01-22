@@ -8,15 +8,15 @@ const Cooking = () => {
     <>
       <section className="mx-auto w-[100%] flex items-center">
         <div className="bg-[#F0EBE1] px-6">
-          <div className=" max-w-[1200px] mx-4 pt-20">
-            <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className=" max-w-[100%] mx-4 pt-20">
+            <div className="flex flex-col items-left md:flex-row justify-between md:items-center">
               <div>
-                <h2 className="font-bold text-[40px] it w-[100%] md:text-[60px] ">
+                <h2 className="font-bold text-[30px]  w-[100%] md:text-[60px] ">
                   OUR ESSENTIAL COOKING TIPS
                 </h2>
               </div>
               <div className="">
-                <p className="text-right">
+                <p className=" text-left md:text-right">
                   Welcome to Cooks Delight's treasure trove of cooking wisdom!
                   Whether you're a seasoned chef or just starting your culinary
                   journey, our cooking tips are designed to elevate your skills,
@@ -26,10 +26,10 @@ const Cooking = () => {
               </div>
             </div>
 
-            <div className=" border-[#2625223D] my-3 border-2 rounded-[10px] p-3 ">
+            <div className=" border-[#2625223D] my-6 border-2 rounded-[10px] p-3 ">
               <div className="flex flex-col  gap-2  md:flex-row">
-                <div className="flex item-left gap-3 text-[#33333399]">
-                  <img src="/cook-icon1.png" />
+                <div className="flex item-left gap-6 text-[#33333399]">
+                  <img className="w-[15%]"  src="/cook-icon1.png" />
                   <div>
                     <h6 className="text-[#EE6352]">COOKING TOOLS</h6>
                     <p>
@@ -40,7 +40,7 @@ const Cooking = () => {
                 </div>
 
                 <div className="flex item-left gap-3 text-[#33333399]">
-                  <img src="/cook-icon2.png" />
+                  <img className="w-[20%]" src="/cook-icon2.png" />
                   <div>
                     <h6 className="text-[#EE6352]">ESSENTIAL UITENSIL</h6>
                     <p>
@@ -51,7 +51,7 @@ const Cooking = () => {
                 </div>
 
                 <div className="flex item-left gap-3 text-[#33333399]">
-                  <img src="/cook-icon3.png" />
+                  <img className="w-[20%]" src="/cook-icon3.png" />
                   <div>
                     <h6 className="text-[#EE6352]">MESURING ACCURACY</h6>
                     <p>
@@ -124,7 +124,7 @@ const Cooking = () => {
                     <p className="text-left pb-3">
                     Unlock the art of precision in your kitchen with proper chopping, dicing, and slicing techniques. Elevate your culinary creations to new heights.
                     </p>
-                    <div className="flex justify-between mt-7 font-semibold">
+                    <div className="flex flex-col md:flex-row justify-between mt-7 font-semibold">
                       <p>40 Min - easy prep - 3 serves</p>{" "}
                       <button className="border-2 rounded-[15px] bottom-6 border-[#262522CC] p-2 ">
                         view recipe
@@ -142,7 +142,7 @@ const Cooking = () => {
                     <p className="text-left pb-3">
                     Achieve the perfect sear and elevate flavors in your dishes. Learn the secrets to sautéing like a pro and creating irresistible textures.
                     </p>
-                    <div className="flex justify-between  mt-7 font-semibold">
+                    <div className="flex flex-col md:flex-row justify-between  mt-7 font-semibold">
                       <p>40 Min - easy prep - 3 serves</p>{" "}
                       <button className="border-2 rounded-[15px] bottom-6 border-[#262522CC] p-2 ">
                         view recipe
@@ -159,7 +159,7 @@ const Cooking = () => {
                     <p className="text-left pb-3">
                     Ensure even cooking and unlock flavorful results with our expert roasting tips. From golden vegetables to succulent meats, master the art of roasting.
                     </p>
-                    <div className="flex justify-between  mt-7 font-semibold">
+                    <div className="flex flex-col md:flex-row justify-between  mt-7 font-semibold">
                       <p>40 Min - easy prep - 3 serves</p>{" "}
                       <button className="border-2 rounded-[15px] bottom-6 border-[#262522CC] p-2 ">
                         view recipe
@@ -178,7 +178,7 @@ const Cooking = () => {
                     <p className="text-left pb-3">
                     Efficiently organize your kitchen space for chopping, mixing, and cooking. Elevate your efficiency in the heart of your culinary domain.
                     </p>
-                    <div className="flex justify-between mt-7 font-semibold">
+                    <div className="flex flex-col md:flex-row justify-between mt-7 font-semibold">
                       <p>40 Min - easy prep - 3 serves</p>{" "}
                       <button className="border-2 rounded-[15px] bottom-6 border-[#262522CC] p-2 ">
                         view recipe
@@ -196,7 +196,7 @@ const Cooking = () => {
                     <p className="text-left pb-3">
                     Maintain a tidy kitchen for stress-free cooking. Learn the art of cleaning as you go, turning every culinary endeavor into a seamless experience.
                     </p>
-                    <div className="flex justify-between  mt-7 font-semibold">
+                    <div className="flex flex-col md:flex-row justify-between  mt-7 font-semibold">
                       <p>40 Min - easy prep - 3 serves</p>{" "}
                       <button className="border-2 rounded-[15px] bottom-6 border-[#262522CC] p-2 ">
                         view recipe
@@ -213,7 +213,7 @@ const Cooking = () => {
                     <p className="text-left pb-3">
                     Feel confident modifying recipes to suit your taste. Explore the art of culinary creativity in crafting dishes uniquely your own.
                     </p>
-                    <div className="flex justify-between  mt-7 font-semibold">
+                    <div className="flex flex-col md:flex-row justify-between  mt-7 font-semibold">
                       <p>40 Min - easy prep - 3 serves</p>{" "}
                       <button className="border-2 rounded-[15px] bottom-6 border-[#262522CC] p-2 ">
                         view recipe

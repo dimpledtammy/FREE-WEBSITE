@@ -9,18 +9,18 @@ const Recipe = () => {
   return (
     <>
       <section className="mx-auto w-[100%] flex items-center">
-        <div className="bg-[#F0EBE1] px-6">
-          <div className=" max-w-[1200px] mx-4 pt-20">
+        <div className="bg-[#F0EBE1] font-montserrat px-6">
+          <div className=" max-w-[100%] mx-4 pt-20">
             <div className=" border-[#2625223D] border-2 rounded-[10px] p-3 ">
               <div>
             <div className="flex flex-col items-center text-center w-[100%]  gap-4">
-              <p className="bg-[#EE6352] mt-6 md:w-[10%]  w-[20%] justify-center p-2 rounded-[10px] ">
+              <p className="bg-[#EE6352] mt-6 md:w-[10%]  w-[40%] justify-center p-2 rounded-[10px] ">
                 Recipe
               </p>
-              <h3 className=" text-[15px] md:text-[30px] font-bold">
+              <h3 className="text-[40px] w-[100%] font-bold">
                 LEMON GARLIC ROASTED CHICKEN
               </h3>
-              <p className="text-[17px] text-[#26252299] ">
+              <p className="text-[17px]  text-[#26252299] ">
                 Welcome to Cooks Delight, where culinary dreams come alive!
                 Today, we embark on a journey of flavors with a dish that
                 promises to elevate your dining experience – our Citrus Infusion
@@ -43,7 +43,7 @@ const Recipe = () => {
             <img className="w-[100%]" src="/Recipe-hero.png" />
             <section>
               <div className="flex flex-col md:flex-row justify-between py-4 gap-6">
-                <div className="text-[#333333CC]md:w-[60%] w-[100%] flex flex-col   itmes-left gap-5">
+                <div className="text-[#333333CC] w-[100%] flex flex-col   itmes-left gap-5">
                   <p>
                     Picture succulent chicken infused with the bright notes of
                     lemon and the aromatic richness of garlic. It's a symphony
@@ -113,7 +113,7 @@ const Recipe = () => {
                     cooked chicken.
                   </p>
                 </div>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col w-[100%] gap-4">
                   <div className="bg-[#FFFBF2] p-5 rounded-[12px]">
                     <h4 className="text-[#EE6352] font-medium">INGREDIENT</h4>
                     <div className=" ">
@@ -303,20 +303,20 @@ const Recipe = () => {
                     versatile and impressive dish.
                   </p>
 
-                  <div  className="gap-1 text-black border-2 rounded-[10px] w-[20%] border-black p-3 items-center flex flex-row">
-                    <p>share</p>
+                  <div  className="gap-1 text-black border-2 rounded-[10px]  border-black p-3 items-center flex flex-row">
+                    <p className="">share</p>
           <CiFacebook />
             <CiInstagram />
             <CiYoutube />
            
           </div>
               
-              <div className="flex item-left gap-3 text-[#33333399]">
-                <img src="/Author.png" />
+              <div className="flex m:flex-row flex-col item-left gap-3 text-[#33333399]">
+                <img  className="w-[30%]" src="/Author.png" />
                 <div> 
                  <h6>Isabella Russo</h6>
                  <p>In the world of pots and pans, I'm on a mission to turn every meal into a masterpiece. Cooks Delight is not just a blog; it's a shared space where the love for food transcends boundaries. Here, we celebrate the art of crafting meals that not only nourish the body but also feed the soul.</p>
-                  <button className="border-2 rounded-[15px] text-black md:w-[30%] w-[40%] border-[#26252229] p-2">learn more</button>
+                  <button className="border-2 rounded-[15px] text-black  border-[#26252229] p-2">learn more</button>
                 </div>
               </div>
 
@@ -328,13 +328,13 @@ const Recipe = () => {
             </div>
           
       
-      <section >
-            <div className=" border-[#2625223D] border-2 mt-3  rounded-[10px] p-3 ">
+      <section className="my-6" >
+            <div className=" border-[#2625223D] border-2 mt-3 rounded-[10px] p-3 ">
             <div className="flex flex-col">
                 <div className=" md:flex md:flex-row justify-between flex flex-col">
                   <div>
                     {" "}
-                    <h2 className="font-semibold text-[30px]">SIMILLAR RECIPE</h2>{" "}
+                    <h2 className="font-bold text-[32px]">SIMILLAR RECIPE</h2>{" "}
                   </div>{" "}
                   <div className="flex">
                     <FaRegArrowAltCircleLeft />
@@ -342,8 +342,8 @@ const Recipe = () => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-10 md:flex-row">
-                  <div className="bg-[#FFFBF2] rounded-[12px] md:w-[50%]">
-                    <img src="/Recipe1.png" />
+                  <div className="bg-[#FFFBF2] rounded-[12px] w-[100%]">
+                    <img className="w-[100%] " src="/Recipe1.png" />
                     <div className="p-4 flex flex-col gap-2">
                       <h4>Decadent Chocolate Mousse</h4>
                       <p>
@@ -358,8 +358,8 @@ const Recipe = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="bg-[#FFFBF2] rounded-[12px] md:w-[50%] ">
-                    <img src="/Recipe2.png" />
+                  <div className="bg-[#FFFBF2] rounded-[12px] w-[100%] ">
+                    <img className="w-[100%]" src="/Recipe2.png" />
                     <div className="p-4 flex flex-col gap-2">
                       <h4>Savory Herb-Infused Chicken</h4>
                       <p>
