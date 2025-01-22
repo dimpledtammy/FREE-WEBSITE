@@ -57,7 +57,7 @@ const Home = () => {
                     curated selection has something to satisfy every palate.
                   </p>
                   <div>
-                    <button className="w-[50%] md:w-[25%] border-2  rounded-[10px] bottom-6 border-[#262522CC] p-1 ">
+                    <button className="w-[50%] md:w-[100%] border-2  rounded-[10px] bottom-6 border-[#262522CC] p-1 ">
                       show more
                     </button>
                   </div>
