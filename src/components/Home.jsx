@@ -12,12 +12,11 @@ const Home = () => {
           <div className="">
             <section className=" mx-auto  ">
               <div
-                className="bg-no-repeat  rounded-2xl"
+                className="bg-no-repeat  md:height-[80vh] height-[100%] rounded-2xl"
                 style={{
                   backgroundImage: "url('/hero-bg.png')",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  height: "80vh",
                   width: "100%",
                 }}
               >
