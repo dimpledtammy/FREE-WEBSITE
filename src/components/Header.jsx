@@ -6,7 +6,7 @@ import { CiFacebook } from "react-icons/ci";
 import { BiX } from "react-icons/bi";
 
 const Header = () => {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
 
   function handleToggle() {
     setToggle(!toggle);

@@ -17,14 +17,14 @@ const Home = () => {
                   backgroundImage: "url('/hero-bg.png')",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  height: "100vh",
+                  height: "80vh",
                   width: "100%",
                 }}
               >
-                <div className=" flex flex-col w-[100%] py-[40px] pr-9 md:px-[22px] md:py-[70px] items-center mx-4">
+                <div className=" flex flex-col w-[100%] py-[40px] pr-9 md:px-[22px] md:py-[90px] items-center mx-4">
                   <div className=" flex md:w-[45%]  flex-col justify-between gap-3 text-center items-center">
-                    <h1 className=" text-[#F0EBE1]  tracking-[-4%]  font-sans font-bold text-center text-[35px] md:text-[55px] items-center">
-                      Unleash Culinary Excellence{" "}
+                    <h1 className=" text-[#F0EBE1]  leading-[-4%]  font-sans font-bold text-center text-[35px] md:text-[50px] items-center">
+                      UNLEASH CULINARY EXECELLENCE{" "}
                     </h1>
                     <p className="text-[#F0EBE1]  text-[16px] items-center  text-center">
                       Explore a world of flavors, discover handcrafted recipes,
